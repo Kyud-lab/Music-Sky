@@ -29,7 +29,7 @@ logging.basicConfig(level=logging.INFO)
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>┗┓ Haii {message.from_user.first_name} saya adalah {PROJECT_NAME} ┏┛\n
-Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah
+Saya Bot Music Group, Yang dapat Memutar Lagu dan menemanimu di Voice Call Group Dengan cara yang Mudah
 Saya Memiliki Banyak Fitur Praktis Seperti :
 ┏━━━━━━━━━━━━━━
 ┣• Memutar Musik.
@@ -37,8 +37,8 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ┣• Mencari Lagu Yang ingin di Putar atau di Download.
 ┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
 ┗━━━━━━━━━━━━━━
-❃ Managed With ❤ By {OWNER}
-❃ Thanks To [Risman](https://t.me/mrismanaziz)
+❃ Managed With 🦇 By {Yamete}(https://t.me/boyfriendnice)
+❃ Support Group [cariteman](https://t.me/CariTemanSntuy)
 ━━━━━━━━━━━━━━━
 Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
 </b>""",
@@ -164,7 +164,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/Lunatic0de/20"
+                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/MusikManagement/11"
                     )
                 ]
             ]
@@ -186,7 +186,7 @@ async def reload(client: Client, message: Message):
                         "Group Support", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url=f"https://t.me/mrismanaziz"
+                        "Owner", url=f"https://t.me/boyfriendnice"
                     )
                 ]
             ]
