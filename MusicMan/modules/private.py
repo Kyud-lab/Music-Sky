@@ -37,10 +37,11 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ┣• Mencari Lagu Yang ingin di Putar atau di Download.
 ┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
 ┗━━━━━━━━━━━━━━
-❃ Managed With 🦇 By {Yamete}(https://t.me/boyfriendnice)
+❃ Managed With 🦇 By [Yamete](https://t.me/boyfriendnice)
 ❃ Support Group [cariteman](https://t.me/CariTemanSntuy)
 ━━━━━━━━━━━━━━━
-Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
+𝐁𝐎𝐓 𝐌𝐔𝐒𝐈𝐊 : @
+𝐀𝐒𝐈𝐒𝐒𝐓𝐀𝐍𝐓 𝐌𝐔𝐒𝐈𝐊 : 
 </b>""",
 
 # Edit Yang Perlu Lu ganti 
@@ -53,12 +54,13 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                         "➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "💬 Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                        "📢 Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                     InlineKeyboardButton(
-                        "⛑ Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "👥 Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
+                        "⚡ Instagram", url=f"https://www.instagram.com/ikyyy_35/")
+             
                 ]
             ]
         ),
@@ -114,7 +116,7 @@ def map(pos):
             ],
             [
                 InlineKeyboardButton(
-                    text='🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}"
+                    text='⚡ Instagram', url=f"https://www.instagram.com/ikyyy_35/
                 )
             ],
             [InlineKeyboardButton(text='«', callback_data=f"help+{pos-1}")],
