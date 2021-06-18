@@ -464,7 +464,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "MusicMan"
+        user.first_name = "MusicSky"
     usar = user
     wew = usar.id
     try:
@@ -542,7 +542,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("📖 Daftar Putar", callback_data="playlist"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/Lunatic0de"),
+                    InlineKeyboardButton("📍 Group", url="https://t.me/CariTemanSntuy"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -589,7 +589,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/Lunatic0de"),
+                    InlineKeyboardButton("📍 Group", url="https://t.me/CariTemanSntuy"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -668,7 +668,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/Lunatic0de"),
+                    InlineKeyboardButton("📍 Group", url="https://t.me/CariTemanSntuy"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -726,7 +726,7 @@ async def ytplay(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "MusicMan"
+        user.first_name = "MusicSky"
     usar = user
     wew = usar.id
     try:
@@ -806,7 +806,7 @@ async def ytplay(_, message: Message):
             [
                 [
                     InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/Lunatic0de"),
+                    InlineKeyboardButton("📍 Group", url="https://t.me/CariTemanSntuy"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -865,7 +865,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "MusicMan"
+        user.first_name = "MusicSky"
     usar = user
     wew = usar.id
     try:
@@ -940,7 +940,7 @@ async def deezer(client: Client, message_: Message):
     
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/Lunatic0de")],
+            [InlineKeyboardButton(text="📍 Group", url="https://t.me/CariTemanSntuy")],
         ]
     )
     file_path = await convert(wget.download(url))
@@ -1036,7 +1036,7 @@ async def lol_cb(b, cb):
             [
                 [
                     InlineKeyboardButton("📖 Daftar Putar", callback_data="playlist"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/Lunatic0de"),
+                    InlineKeyboardButton("📍 Group", url="https://t.me/CariTemanSntuy"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
