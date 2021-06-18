@@ -40,8 +40,8 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ❃ Managed With 🦇 By [Yamete](https://t.me/boyfriendnice)
 ❃ Support Group [cariteman](https://t.me/CariTemanSntuy)
 ━━━━━━━━━━━━━━━
-𝐁𝐎𝐓 𝐌𝐔𝐒𝐈𝐊 : @
-𝐀𝐒𝐈𝐒𝐒𝐓𝐀𝐍𝐓 𝐌𝐔𝐒𝐈𝐊 : 
+𝐁𝐎𝐓 𝐌𝐔𝐒𝐈𝐊 : @SkyMusic_Groupbot
+𝐀𝐒𝐈𝐒𝐒𝐓𝐀𝐍𝐓 𝐌𝐔𝐒𝐈𝐊 : @AsisstantSkyMusic
 </b>""",
 
 # Edit Yang Perlu Lu ganti 
